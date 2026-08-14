@@ -342,23 +342,3 @@ docs: update README
 
 ---
 
-## LinkedIn Post Draft
-
-```
-🚀 Week 3 – Client-Server Technologies
-
-This week, I developed a multi-page Company Profile Website for a fictional
-startup, NovaWorks Technologies, using Laravel's MVC architecture. I
-implemented routing, a dedicated controller, and reusable Blade layouts and
-components to keep the codebase clean while learning how Laravel processes
-client requests and serves dynamic web pages end to end.
-
-Through this project I gained a deeper understanding of separation of
-concerns and reusable UI components — foundational skills for enterprise web
-development.
-
-🔗 GitHub Repository: https://github.com/clrkcbn/week03-company-profile
-
-#Laravel #MVC #PHP #Blade #GitHub #WebDevelopment #ClientServer
-#SoftwareEngineering #ComputerScience
-```
