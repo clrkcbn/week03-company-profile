@@ -89,7 +89,7 @@ Response to Browser
 ```
 
 A more detailed version of this diagram is available at
-[!Diagram](documentation/architecture-diagram.svg)
+`documentation/architecture-diagram.svg`
 
 ---
 
@@ -123,7 +123,7 @@ Route::get('/services', [CompanyController::class, 'services'])->name('services'
 Route::get('/contact', [CompanyController::class, 'contact'])->name('contact');
 ```
 
-[!](Screenshot/web-php-routes.png)
+`Screenshot/web-php-routes.png`
 
 ---
 
@@ -163,7 +163,7 @@ class CompanyController extends Controller
 Each method assembles the data the page needs (e.g. the list of services or
 team members) and passes it to the corresponding Blade view via `view()`.
 
-[!](Screenshot/company-controller.png)
+`Screenshot/company-controller.png`
 
 ---
 
@@ -214,7 +214,7 @@ duplicating their markup:
 @endsection
 ```
 
-[!](Screenshot/blade-layout.png)
+`Screenshot/blade-layout.png`
 
 ---
 
@@ -233,24 +233,21 @@ duplicating their markup:
 
 ## 8. Screenshots
 
-> Replace the placeholders below with your actual screenshots once the
-> project is running locally (see `INSTALL.md`).
-
 | Page / Item | Screenshot |
 |---|---|
-| Home Page | [!](Screenshot/homepage.png) |
-| About Page | [!](Screenshot/about-page.png) |
-| Services Page | [!](Screenshot/services-page.png) |
-| Contact Page | [!](Screenshot/contact-page.png) |
-| Navigation Bar | [!](Screenshot/navbar.png) |
-| Footer | [!](Screenshot/footer.png) |
-| VS Code Project | [!](Screenshot/vscode-project.png) |
-| Laravel Folder Structure | [!](Screenshot/folder-structure.png) |
-| GitHub Repository | [!](Screenshot/github-repo.png) |
-| Browser Output | [!](Screenshot/browser-output.png) |
-| Route Definitions | [!](Screenshot/web-php-routes.png) |
-| Controller | [!](Screenshot/company-controller.png) |
-| Blade Layout | [!](Screenshot/blade-layout.png) |
+| Home Page | `Screenshot/homepage.png` |
+| About Page | `Screenshot/about-page.png` |
+| Services Page | `Screenshot/services-page.png` |
+| Contact Page | `Screenshot/contact-page.png` |
+| Navigation Bar | `Screenshot/navbar.png` |
+| Footer | `Screenshot/footer.png` |
+| VS Code Project | `Screenshot/vscode-project.png` |
+| Laravel Folder Structure | `Screenshot/folder-structure.png` |
+| GitHub Repository | `Screenshot/github-repo.png` |
+| Browser Output | `Screenshot/browser-output.png` |
+| Route Definitions | `Screenshot/web-php-routes.png` |
+| Controller | `Screenshot/company-controller.png` |
+| Blade Layout | `Screenshot/blade-layout.png` |
 
 ---
 
